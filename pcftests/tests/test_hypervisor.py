@@ -33,4 +33,5 @@ class HypervisorTest(base.BasePCFTest):
         for hyper in hypers:
             details = (self.client.show_hypervisor(hyper['id'])
                        ['hypervisor'])
+            print details['hypervisor_type']
             self.assertEqual('KVM', details['hypervisor_type'])
