@@ -34,7 +34,7 @@ class QuotasTest(base.BasePCFTest):
     def test_quotas(self):
         """Verify that quotas are available for the user/tenant."""
         cores = 32
-        instances = 22
+        instances = 9
         ram = 64000
 
         quotas = self.client.show_quota_set(self.tenant_id)['quota_set']
