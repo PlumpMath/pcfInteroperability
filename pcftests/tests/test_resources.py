@@ -124,7 +124,7 @@ class ResourcesTest(base.BasePCFTest):
         ram = 1024
         vcpus = 1
         disk = 10
-        vms = 10
+        vms = 2
 
         self.create_test_server(vms, ram, vcpus, disk)
 
