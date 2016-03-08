@@ -34,4 +34,4 @@ class HypervisorTest(base.BasePCFTest):
             details = (self.client.show_hypervisor(hyper['id'])
                        ['hypervisor'])
             print details['hypervisor_type']
-            self.assertEqual('KVM', details['hypervisor_type'])
+            self.assertEqual('QEMU', details['hypervisor_type'])
