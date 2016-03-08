@@ -33,7 +33,7 @@ class QuotasTest(base.BasePCFTest):
 
     def test_quotas(self):
         """Verify that quotas are available for the user/tenant."""
-        cores = 20
+        cores = 19
         instances = 9
         ram = 4000
 
